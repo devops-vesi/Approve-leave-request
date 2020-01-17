@@ -1,0 +1,35 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "hcm.approve.leaverequest.YHCM_LRQ_APV",
+		"type": "application",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0"
+		}
+
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": ""
+		},
+		"supportedThemes": [
+			""
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.28.5"
+		},
+		"extends": {
+			"component": "hcm.approve.leaverequest",
+			"extensions": {}
+		}
+	}
+}
